@@ -4,6 +4,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* BOTTONE */
+
+.button-wide{
+    padding: 16px 32px;
+    border-radius: 25px;
+}
+
+.button-small{
+    padding: 5px 15px;
+    border-radius: 25px;
+}
+
+.white-button{
+    color: black;
+    background-color: white;
+}
+
+.black-button{
+    color: white;
+    background-color: #23272a;
 }
 
 /* Header */
@@ -18,6 +49,22 @@ header{
 nav{
     width: 80%;
     display: flex;
+    align-items: center;
+}
+
+header nav > .left{
+    display: flex;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header li{
+    color: white;
+    list-style: none;
 }
 
 nav div{
@@ -43,16 +90,46 @@ nav div{
 /* Main */
 
 .bg-size{
-    min-height: 400px;
     padding: 50px 0px;
 }
 
 /* Section 1 */
 
+.bg-img{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .box{
-    margin: auto;
     width: 60%;
-    height: 500px;
+    max-height: 500px;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+}
+
+p{
+    padding-top: 30px;
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+.fa-solid{
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+.box > a{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* Section 2 */
@@ -66,10 +143,21 @@ nav div{
 .light-blue-box{
     width: 60%;
     height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.light-blue-box > img{
+    width: 800px;
 }
 
 .pink-box{
-    flex-grow: 1;
+    width: 40%;
+}
+
+.pink-box > h1{
+    margin-top: 35px;
 }
 
 /* Section 3 */
@@ -77,6 +165,11 @@ nav div{
 .bg-grey > .reverse{
     display: flex;
     flex-direction: row-reverse;
+}
+
+.light-blue-box:nth-of-type(2){
+    display: flex;
+    
 }
 
 /* Section 5 */
@@ -134,10 +227,6 @@ footer{
 
                                 /* DEBUG */
 
-.border{
-    border: 1px dashed black;
-}                 
-
 .pink-box-debug{
     background-color: #ffb6c1;
 }
@@ -170,24 +259,12 @@ footer{
     background-color: lightgrey;
 }
 
-.bg-blue{
-    background-color: blue;
-}
-
 .bg-header{
-    background-color: #add8e6;
+    background-color: #255EE9;
 }
 
 .bg-pink{
     background-color: #ffc0cb;
-}
-
-.bg-plum{
-    background-color: plum;
-}
-
-.bg-nav{
-    background-color: #daa520;
 }
 
 .bg-light-blue{
