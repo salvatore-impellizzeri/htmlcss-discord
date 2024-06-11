@@ -167,9 +167,9 @@ p{
     flex-direction: row-reverse;
 }
 
-.light-blue-box:nth-of-type(2){
+.bg-size .reverse .light-blue-box{
     display: flex;
-    
+    justify-content: flex-start;
 }
 
 /* Section 5 */
