@@ -176,8 +176,19 @@ p{
 
 #green-box{
     width: 80%;
-    height: 700px;
+    min-height: 700px;
     margin: auto;
+    text-align: center;
+}
+
+#green-box > h1, p{
+    width: 1250px;
+    margin: auto;
+}
+
+#green-box > h2{
+    background-image: url("../img/stars.svg");
+    background-size: contain;
 }
 
 /* Section 6 */
