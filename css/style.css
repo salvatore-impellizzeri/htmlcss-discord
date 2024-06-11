@@ -52,7 +52,7 @@ a{
 }
 
 .button-small{
-    padding: 5px 15px;
+    padding: 10px 15px;
     border-radius: 25px;
 }
 
@@ -338,10 +338,3 @@ footer{
     padding-top: 10px;
     padding-bottom: 50px;
 }
-
-.text-footer{
-    padding: 10px 15px;
-}
-
-                                /* DEBUG */
-
